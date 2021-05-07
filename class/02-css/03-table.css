@@ -1,0 +1,27 @@
+table {
+    border-spacing: 0px;
+}
+
+th {
+    background-color: wheat;
+}
+
+.date {
+    width: 200px;
+}
+
+.type {
+    width: 300px;
+}
+
+.price {
+    width: 200px;
+}
+
+td {
+    text-align: center;
+    background-color:lightyellow;
+    height: 30px;
+    color: gray;
+    border-bottom: 1px solid lightgray;
+}

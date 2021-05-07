@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <title>함수실습</title>
+    <script>
+        function sendPhoneAuth(){
+            const phoneAuth = String(Math.floor(Math.random() * 1000000)).padStart(6, "0")
+            document.getElementById("auth").innerText = phoneAuth
+        }
+    </script>
+</head>
+<body>
+    <span id="auth">000000</span>
+    <button onclick="sendPhoneAuth()">인증번호 전송</button>
+</body>
+</html>
